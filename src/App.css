@@ -1,0 +1,107 @@
+.App{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.conteiner{
+  margin: auto;
+}
+body{
+  margin: 0;
+  color: #FFF;
+}
+.phraseP{
+  font-size: 1.3rem;
+  font-family: 'Indie Flower', cursive;
+  max-width: 300px;
+  padding: 30px 20px;
+  background:linear-gradient(to top, transparent, #FFF);
+  border-radius: 10px;
+  border: solid 1px #FFF;
+  box-shadow: 5px 5px 10px #fff;
+}
+.author{
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.button1{
+  z-index: 2;
+  position: relative;
+  padding: 7px 15px;
+  border-radius: 5px;
+  align-items: center;
+  margin: 1px 100px;
+}
+h1{
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  font-size: 2.3rem;
+  text-align: center;
+}
+.bg1{
+  background-image: url("./imgs/imagenes/espacio/space1.jpg");
+}
+
+.bg2{
+  background-image: url("./imgs/imagenes/espacio/space2.jpg");
+}
+
+.bg3{
+  background-image: url("./imgs/imagenes/espacio/space3.jpg");
+}
+
+.bg4{
+  background-image: url("./imgs/imagenes/espacio/space4.jpg");
+}
+
+.planet1{
+  background-image: url('./assets/images/planeta1.png');
+}
+.planet2{
+  background-image: url('./assets/images/planeta2.png');
+}
+.planet3{
+  background-image: url('./assets/images/planeta3.png');
+}
+.planet4{
+  background-image: url('./assets/images/planeta4.png');
+}
+
+.planett{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media (min-width:537px){
+  .planett{
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+@media (max-width:320px){
+  .planett{
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+}
